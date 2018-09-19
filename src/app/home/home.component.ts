@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WeatherService} from '../weather.service';
+import { WeatherService } from '../weather.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -8,8 +8,8 @@ import { WeatherService} from '../weather.service';
 export class HomeComponent implements OnInit {
 
   location={
-    city:'kyoto',
-    code:'jp'
+    city:'riverside',
+    code:'ca'
   };
   constructor(private _weatherService:WeatherService) { }
 
